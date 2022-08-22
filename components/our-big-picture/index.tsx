@@ -39,7 +39,7 @@ const OurBigPicture = () => {
               <Image
                 src={ourBigPicture}
                 alt="member1"
-                className="absolute inset-0 w-full h-full object-cover"
+                className="absolute inset-0 w-full h-full object-cover bg-gray-400"
               />
             </motion.div>
           </div>

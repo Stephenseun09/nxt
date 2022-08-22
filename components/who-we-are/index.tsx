@@ -63,7 +63,7 @@ const WhoWeAre = () => {
                     <Image
                       src={img}
                       alt={`member${i}`}
-                      className={`block rounded-lg  ${
+                      className={`block bg-gray-400 rounded-lg  ${
                         i == 1 ? "mt-4" : "mt-0"
                       } ${i == 1 ? "lg:mt-10" : "lg:mt-0"} object-cover `}
                     />

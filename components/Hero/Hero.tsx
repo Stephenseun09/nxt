@@ -291,7 +291,7 @@ const Hero = () => {
           <Image
             src="/images/landing-page.gif"
             alt="hero image"
-            className="object-cover mx-auto"
+            className="object-cover mx-auto bg-gray-400"
             width={1080}
             height={608}
             priority

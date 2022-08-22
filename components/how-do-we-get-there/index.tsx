@@ -44,7 +44,11 @@ const HowDoWeGetThere = () => {
               viewport={{ once: true }}
             >
               <div className=" overflow-hidden flex justify-center lg:justify-start  scale-x-[-1] transition-all">
-                <Image src={howDoWeGetThere} alt="member1" className="" />
+                <Image
+                  src={howDoWeGetThere}
+                  alt="member1"
+                  className="bg-gray-400"
+                />
               </div>
             </motion.div>
           </div>
