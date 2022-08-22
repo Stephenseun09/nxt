@@ -56,14 +56,7 @@ const Header = () => {
     >
       <div className=" relative max-w-[86rem] px-4 sm:px-5 md:px-7 mx-auto z-[60]">
         <div className="relative py-4 lg:py-5 flex items-center justify-between text-slate-700 font-semibold text-base leading-6 ">
-          <Image
-            src={nxtLogo}
-            alt="logo"
-            width={130}
-            height={47}
-            priority
-            className="bg-gray-400"
-          />
+          <Image src={nxtLogo} alt="logo" width={130} height={47} priority />
           <div className="flex items-center">
             <div className=" md:hidden ">
               <MenuButton isOpen={isOpen} onClick={() => setIsOpen(!isOpen)} />

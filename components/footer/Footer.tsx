@@ -25,13 +25,7 @@ const Footer = () => {
       <div className=" max-w-[86rem] mx-auto px-4 sm:px-5 md:px-7 pt-10 sm:pt-12 lg:pt-16 pb-5  sm:pb-6 ">
         <div className="relative">
           <div className="mb-6">
-            <Image
-              src={nxtLogo}
-              alt="logo"
-              width={140}
-              height={47}
-              className="bg-gray-400"
-            />
+            <Image src={nxtLogo} alt="logo" width={140} height={47} />
           </div>
           <div className=" grid md:grid-cols-12  gap-12 ">
             <Left />
