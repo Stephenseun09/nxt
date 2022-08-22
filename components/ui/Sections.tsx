@@ -6,7 +6,7 @@ import { slideInRight } from "./animations";
 const Sections = () => {
   return (
     <section className="">
-      <div className="relative max-w-[82rem] mx-auto px-4 sm:px-5 md:px-7 py-10  sm:py-12 lg:py-16">
+      {/* <div className="relative max-w-[82rem] mx-auto px-4 sm:px-5 md:px-7 py-10  sm:py-12 lg:py-16">
         <div className=" relative mx-auto lg:grid lg:grid-cols-12 space-y-8 md:space-y-0 lg:items-center lg:grid-flow-col-dense  h-full">
           <div className="mt-8 sm:mx-0 lg:mt-0 lg:col-span-5 xl:col-span-6 lg:col-start-7 lg:col-end-13 xl:col-start-7 xl:col-end-13    col-span-4 h-full flex flex-col space-y-8 justify-center">
             <h2 className="text-[1.8rem] sm:text-[2rem] md:text-[2.3rem]  lg:text-[2.6rem] xl:text-[2.8rem]  text-black uppercase font-bold  leading-none">
@@ -38,9 +38,9 @@ const Sections = () => {
             viewport={{ once: true }}
           />
         </div>
-      </div>
+      </div> */}
     </section>
-  )
-}
+  );
+};
 
-export default Sections
+export default Sections;
