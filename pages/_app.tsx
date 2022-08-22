@@ -28,17 +28,17 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      {/* <Head>
-        <title>Preye Nabena</title>
+      <Head>
+        <title>NXT</title>
 
-        <meta name="description" content="Preye Nabena's Portfolio" />
+        {/* <meta name="description" content="Preye Nabena's Portfolio" />
         <meta name="theme-color" content={primaryColor} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Preye Nabena" />
         <meta property="og:description" content="Preye Nabena's Portfolio" />
-        <meta property="og:site_name" content="Preye Nabena" />
-        <link rel="icon" href="/favlogo.ico" />
-      </Head> */}
+        <meta property="og:site_name" content="Preye Nabena" /> */}
+        <link rel="icon" href="/nxt-icon.svg" />
+      </Head>
 
       <Layout>
         <Component {...pageProps} />
