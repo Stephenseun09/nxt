@@ -25,7 +25,7 @@ const MenuButton = ({ isOpen = false, onClick, ...props }: Props) => {
           initial="hidden"
           animate="visible"
           exit="exit"
-          transition={{ duration: 0.1 }}
+          transition={{ duration: 0.05 }}
           onClick={onClick}
         >
           <span className="block w-5 h-0.5 bg-primary" />
@@ -40,7 +40,7 @@ const MenuButton = ({ isOpen = false, onClick, ...props }: Props) => {
           initial="hidden"
           animate="visible"
           exit="exit"
-          transition={{ duration: 0.1 }}
+          transition={{ duration: 0.05 }}
           onClick={onClick}
           className={classes.close}
         />

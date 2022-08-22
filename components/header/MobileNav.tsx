@@ -29,7 +29,7 @@ const ulVariants = {
     opacity: 1,
     transition: {
       type: "spring",
-      delay: 0.2,
+      delay: 0.15,
     },
   },
   exit: {
@@ -46,14 +46,14 @@ const listVariants = {
     y: 0,
     opacity: 1,
     transition: {
-      delay: index * 0.2,
+      delay: index * 0.15,
     },
   }),
   exit: (index: number) => ({
     y: -20,
     opacity: 0,
     transition: {
-      delay: index * 0.2,
+      delay: index * 0.15,
     },
   }),
 };
